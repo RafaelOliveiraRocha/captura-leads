@@ -1,0 +1,14 @@
+# Ambientes e caches locais
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Configuração e logs locais
+.env
+.env.*
+*.log
+
+# Resultados gerados pelos scripts, relativos ao diretório de execução
+/informacoes_de_contato.csv
+/informacoes_de_contato_com_info.csv

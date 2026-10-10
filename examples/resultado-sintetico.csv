@@ -1,0 +1,4 @@
+PERFIL,NOME,PUBLICAÇÕES,SEGUIDORES,BIO,LINK,CONTATO,SEGMENTO,CIDADE,BAIRRO,ESTADO,FONTE
+https://restaurante-a.example.invalid/perfil,Restaurante Exemplo A,0012,"1,2 mil",Perfil fictício. Menu e contato de demonstração.,https://cardapio-a.example.invalid/,(00) 00000-0001,Restaurantes,São Paulo,Ipiranga,Completo,Fictícia — HTML local
+https://restaurante-b.example.invalid/perfil,Restaurante Exemplo B,0000,007,Perfil fictício sem contato ou link informado.,,,Restaurantes,São Paulo,Ipiranga,"Campos ausentes: link, contato.",Fictícia — HTML local
+https://cozinha-c.example.invalid/perfil,Cozinha Exemplo C,,0030,,https://cozinha-c.example.invalid/menu,contato@cozinha-c.example.invalid,Restaurantes,São Paulo,Butantã,"Campos ausentes: publicacoes, bio.",Fictícia — HTML local

@@ -1,0 +1,32 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #24343a; background: #f1f5f4; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1540px; padding: 38px 28px 30px; margin: auto; }
+header { padding: 0 4px 18px; }
+.etiqueta { color: #08716a; font-size: .76rem; font-weight: 750; letter-spacing: .1em; }
+h1 { font-size: clamp(1.8rem, 3.2vw, 2.6rem); letter-spacing: -.04em; margin: 10px 0; }
+h2 { font-size: 1.15rem; margin: 0 0 16px; }
+.introducao { color: #53636b; max-width: 850px; line-height: 1.6; }
+.painel { background: #fff; padding: 25px; border: 1px solid #dce5e1; border-radius: 12px; margin: 18px 0; }
+form { display: grid; grid-template-columns: 1fr 1fr 1fr auto; align-items: end; gap: 18px; }
+label { display: grid; gap: 7px; font-size: .9rem; font-weight: 650; }
+label span { color: #667781; font-weight: 400; }
+input { width: 100%; padding: 12px; min-height: 46px; border: 1px solid #bacbc5; border-radius: 7px; font: inherit; }
+input:focus, a:focus, button:focus { outline: 3px solid #a5ddd0; outline-offset: 2px; }
+.botao { display: inline-block; min-height: 46px; padding: 13px 19px; border: 0; border-radius: 7px; color: white; background: #08716a; font: inherit; font-weight: 650; text-decoration: none; cursor: pointer; white-space: nowrap; }
+.botao:hover { background: #055c56; }
+.secundario { background: #e9f5ef; color: #12604e; border: 1px solid #c4dfd3; }
+.secundario:hover { background: #d4eadf; }
+.ajuda { color: #667781; font-size: .8rem; line-height: 1.6; margin-bottom: 0; }
+.resumo { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin-bottom: 18px; }
+.resumo h2 { margin-bottom: 5px; }
+.resumo p { margin: 0; color: #53636b; font-size: .9rem; }
+.tabela { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 980px; table-layout: fixed; font-size: .79rem; line-height: 1.5; }
+th { background: #f1f6f3; color: #4b625d; text-align: left; font-size: .66rem; letter-spacing: .04em; }
+td, th { padding: 13px 10px; border-bottom: 1px solid #e1e9e5; vertical-align: top; overflow-wrap: anywhere; }
+th:nth-child(3), th:nth-child(4) { width: 7.5%; }
+th:nth-child(5) { width: 18%; }
+th:nth-child(8) { width: 14%; }
+footer { color: #6a7e75; font-size: .78rem; padding: 10px 5px; }
+@media (max-width: 700px) { main { padding: 22px 14px; } .painel { padding: 18px; } form { grid-template-columns: 1fr; gap: 14px; } .resumo { align-items: flex-start; } }

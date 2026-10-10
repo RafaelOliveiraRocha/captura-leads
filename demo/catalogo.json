@@ -1,0 +1,44 @@
+[
+  {
+    "segmento": "Restaurantes",
+    "cidade": "São Paulo",
+    "bairro": "Ipiranga",
+    "perfil": "https://restaurante-a.example.invalid/perfil",
+    "arquivo": "perfis/restaurante-a.html"
+  },
+  {
+    "segmento": "Restaurantes",
+    "cidade": "São Paulo",
+    "bairro": "Ipiranga",
+    "perfil": "https://restaurante-a.example.invalid/perfil",
+    "arquivo": "perfis/restaurante-a.html"
+  },
+  {
+    "segmento": "Restaurantes",
+    "cidade": "São Paulo",
+    "bairro": "Ipiranga",
+    "perfil": "https://restaurante-b.example.invalid/perfil",
+    "arquivo": "perfis/restaurante-b.html"
+  },
+  {
+    "segmento": "Restaurantes",
+    "cidade": "São Paulo",
+    "bairro": "Butantã",
+    "perfil": "https://cozinha-c.example.invalid/perfil",
+    "arquivo": "perfis/cozinha-c.html"
+  },
+  {
+    "segmento": "Livrarias",
+    "cidade": "São Paulo",
+    "bairro": "Mooca",
+    "perfil": "https://livraria-d.example.invalid/perfil",
+    "arquivo": "perfis/livraria-d.html"
+  },
+  {
+    "segmento": "Restaurantes",
+    "cidade": "Campinas",
+    "bairro": "Centro",
+    "perfil": "https://restaurante-e.example.invalid/perfil",
+    "arquivo": "perfis/restaurante-e.html"
+  }
+]

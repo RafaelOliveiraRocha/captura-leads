@@ -1,0 +1,4 @@
+Todos os perfis, nomes, contatos e resultados são inteiramente fictícios.
+Os domínios terminam em .example.invalid; os telefones têm DDD 00 inválido.
+Referência: busca por Restaurantes em São Paulo, sem bairro.
+A referência é gerada lendo demo/catalogo.json e as páginas demo/perfis/.

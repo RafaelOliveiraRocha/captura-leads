@@ -1,0 +1,14 @@
+{
+  "url_pesquisa": "https://www.googleapis.com/customsearch/v1",
+  "id_mecanismo": "PREENCHA_O_ID_DO_SEU_MECANISMO",
+  "dominio_perfis": "instagram.com",
+  "driver": "PREENCHA_O_CAMINHO_DO_CHROMEDRIVER",
+  "seletores": {
+    "nome": {"por": "css", "valor": "PREENCHA_O_SELETOR"},
+    "bio": {"por": "css", "valor": "PREENCHA_O_SELETOR"},
+    "publicacoes": {"por": "css", "valor": "PREENCHA_O_SELETOR"},
+    "seguidores": {"por": "css", "valor": "PREENCHA_O_SELETOR"},
+    "link": {"por": "css", "valor": "PREENCHA_O_SELETOR", "atributo": "href"},
+    "contato": {"por": "css", "valor": "PREENCHA_O_SELETOR"}
+  }
+}

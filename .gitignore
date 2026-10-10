@@ -12,3 +12,7 @@ __pycache__/
 # Resultados gerados pelos scripts, relativos ao diretório de execução
 /informacoes_de_contato.csv
 /informacoes_de_contato_com_info.csv
+
+# Configuração da coleta externa e saídas locais
+/config-externa.json
+/outputs/

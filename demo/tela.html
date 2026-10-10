@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Captura de perfis — demonstração local</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="etiqueta">DEMONSTRAÇÃO LOCAL · DADOS FICTÍCIOS</p>
+    <h1>Pesquise perfis. Organize contatos.</h1>
+    <p class="introducao">Selecione segmento e localização para extrair informações de páginas fictícias e baixar um CSV consolidado.</p>
+  </header>
+  <section class="painel" aria-labelledby="busca">
+    <h2 id="busca">Pesquisar na base de exemplo</h2>
+    <form action="/pesquisar" method="get">
+      <label>Segmento
+        <input name="segmento" value="$segmento" placeholder="Restaurantes" maxlength="120" required>
+      </label>
+      <label>Cidade
+        <input name="cidade" value="$cidade" placeholder="São Paulo" maxlength="120" required>
+      </label>
+      <label>Bairro <span>(opcional)</span>
+        <input name="bairro" value="$bairro" placeholder="Ipiranga" maxlength="120">
+      </label>
+      <button class="botao" type="submit">Pesquisar perfis</button>
+    </form>
+    <p class="ajuda">Experimente Restaurantes / São Paulo, Ipiranga ou Butantã. Há também Livrarias / São Paulo e Restaurantes / Campinas. A busca aceita maiúsculas e acentos.</p>
+  </section>
+  <section class="painel resultados" aria-labelledby="resultado">
+    <div class="resumo"><div><h2 id="resultado">Resultados</h2><p role="status">$mensagem</p></div>$download</div>
+    <div class="tabela" tabindex="0" aria-label="Tabela de perfis fictícios, com rolagem horizontal quando necessário">
+      <table><thead><tr>$cabecalho</tr></thead><tbody>$corpo</tbody></table>
+    </div>
+    <p class="ajuda">Campos não encontrados ficam vazios e são indicados no estado. Contagens e contatos são texto; nenhuma mensagem é enviada. URLs e contatos são fictícios.</p>
+  </section>
+  <footer>Busca no catálogo → leitura das páginas HTML → tratamento dos campos → CSV com os resultados exibidos.</footer>
+</main>
+</body>
+</html>

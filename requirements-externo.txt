@@ -1,0 +1,3 @@
+# Somente para o modo externo; a demonstração usa biblioteca padrão.
+requests
+selenium
